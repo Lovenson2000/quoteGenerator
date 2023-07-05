@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tailwindcss -i ./input.css -o ./src/main.css -w",
-    "server": "index.html -w"
+    "start": "tailwindcss -i ./input.css -o ./src/main.css -w",
+    "build": "npm run build"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +14,8 @@
     "tailwindcss": "^3.3.2"
   },
   "dependencies": {
-    "live-server": "^1.2.2"
+    "global": "^4.4.0",
+    "live-server": "^1.2.2",
+    "netlify-cli": "^15.8.0"
   }
 }
