@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "tailwindcss -i ./input.css -o ./src/main.css -w",
-    "build": "npm run build"
+    "build": "npm run build",
+    "deploy": "netlify deploy --prod"
   },
   "keywords": [],
   "author": "",
